@@ -135,7 +135,7 @@ def generateMatrix(numRows, numcolumns, minVal, maxVal):
     ## TODO: Define Function
     ## TODO: comment out "raiseNotDefined()" when you start working on this function
     # A0.raiseNotDefined()
-    matrix = np.random.uniform(minVal, maxVal + 1, size=(numRows, numcolumns))
+    matrix = np.random.uniform(minVal, maxVal, size=(numRows, numcolumns))
     return matrix
 
 def multiplyMat(m1, m2):
